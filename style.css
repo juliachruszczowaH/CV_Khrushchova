@@ -11,8 +11,7 @@ title {
 body {
   max-width: 1024px;
   margin: 0 auto;
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 12px;
 }
 header {
   background: whitesmoke;
@@ -21,13 +20,15 @@ header {
 }
 main {
   display: flex;
-  flex-wrap: wrap;
 }
 .toc {
   flex: 25%;
   background: #ece6e3;
   padding: 10px;
   margin-top: -60px;
+}
+.toc > section:last-child {
+  margin-top: 60px;
 }
 
 .main-info {
@@ -65,18 +66,9 @@ main {
   text-align: center;
 }
 
-.section-heading {
-  margin-top: 94px;
-}
-
 .section-heading p {
   font-size: 12px;
   line-height: 28px;
-  text-transform: lowercase;
-}
-
-h2 {
-  margin-bottom: 20px;
 }
 
 .social-media li {
@@ -92,14 +84,9 @@ h2 {
   color: #20816d;
 }
 
-.section-languages {
-  margin-top: 40px;
-}
-
 .languages li {
-  display: inline-block;
   text-decoration: none;
-  padding: 20px 8px 35px 0;
+  padding: 10px 8px 15px 0;
 }
 
 .degree-title {
@@ -112,7 +99,7 @@ h2 {
 }
 
 .date {
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 h2,
 .position-title {
@@ -123,8 +110,8 @@ h2,
 h2 {
   letter-spacing: 3px;
   margin-top: 12px;
-  font-size: 26px;
-  padding-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 h3 {
   color: #20816d;
@@ -147,7 +134,7 @@ article,
   text-align: left;
 }
 .position-title {
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 17px;
 }
 
@@ -174,6 +161,9 @@ div > a {
   color: black;
   font-size: 14px;
 }
+.hide{
+    margin-top: 40px;
+}
 
 @media screen and (max-width: 900px) {
   main {
@@ -188,7 +178,7 @@ div > a {
     margin-top: 0;
   }
   h2 {
-    margin-bottom: 0;
+    margin-bottom: 5px;
   }
   .title {
     padding-left: 0;
@@ -198,8 +188,3 @@ div > a {
     padding-bottom: 5px;
   }
 }
-@media (min-width: 480px) and (max-width: 1024px) {
-    p {
-      font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
-    }
-  }

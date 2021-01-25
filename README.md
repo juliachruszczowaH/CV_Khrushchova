@@ -1,1 +1,1 @@
-[https://github.com/juliachruszczowaH/CV/cv](https://github.com/juliachruszczowaH/CV/cv)
+[https://juliachruszczowah.github.io/CV_Khrushchova/](https://juliachruszczowah.github.io/CV_Khrushchova/)
